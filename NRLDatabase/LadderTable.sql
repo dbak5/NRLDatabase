@@ -1,7 +1,8 @@
 ﻿CREATE TABLE [dbo].[Ladder]
 (
-	[ladder_id] INTEGER NOT NULL, 
-    [ladder_name] INTEGER, 
+	[ladder_id] INTEGER IDENTITY(1,1) NOT NULL, 
+    [ladder_year] INTEGER NOT NULL,
+    [ladder_name] VARCHAR(50), 
     [team] INTEGER, 
     [position] INTEGER,
     [games_played] INTEGER, 

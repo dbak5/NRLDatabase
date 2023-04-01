@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Players]
 (
 	[player_id] INTEGER IDENTITY(1,1) NOT NULL, 
-    [name] VARCHAR(50) NOT NULL, 
+    [player_name] VARCHAR(50) NOT NULL, 
     [team] INTEGER NOT NULL,
     [height] INTEGER,
     [weight] INTEGER,
