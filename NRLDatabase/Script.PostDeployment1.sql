@@ -1,5 +1,4 @@
-﻿DROP DATABASE IF EXISTS NRLDatabase;
-
+﻿
 DECLARE @team_id int;
 DECLARE @captain int;
 
